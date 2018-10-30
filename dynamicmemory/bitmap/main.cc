@@ -1,3 +1,6 @@
+/*
+	 Author: Kyra DiFrancesco
+*/
 #include <iostream>
 //#include "Color.hh"
 #include <iomanip>
