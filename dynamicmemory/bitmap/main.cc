@@ -1,6 +1,8 @@
 /*
 	 Author: Kyra DiFrancesco
 */
+
+//TODO: figure out Color, make that better, split into separate files
 #include <iostream>
 //#include "Color.hh"
 #include <iomanip>
@@ -59,6 +61,8 @@ public:
 
 	~Bitmap(){
 		delete [] p;
+    for (uint32_t i = 0; i < width; i++)
+      delete [] p[i];
 	}
 
 	void line (uint32_t x0, uint32_t y0, uint32_t x1, uint32_t y1, Color& c) {
