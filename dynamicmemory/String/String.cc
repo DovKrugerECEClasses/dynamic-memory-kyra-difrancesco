@@ -1,3 +1,6 @@
+/*
+	 Author: Kyra DiFrancesco
+*/
 #include "String.hh"
 #include <iostream>
 #include <cstring>

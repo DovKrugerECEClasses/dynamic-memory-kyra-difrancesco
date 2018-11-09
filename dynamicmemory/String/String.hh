@@ -1,3 +1,6 @@
+/*
+	 Author: Kyra DiFrancesco
+*/
 #include<cstdint>
 #include <iostream>
 using namespace std;
